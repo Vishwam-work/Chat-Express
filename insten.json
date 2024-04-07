@@ -1,0 +1,240 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey, how's it going?",
+        "Nice to see you!",
+        "Greetings and salutations!",
+        "Hello, what's new?",
+        "Hi there, how have you been?",
+        "Good day! How can I assist you today?"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hey!",
+        "Greetings!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Alright, talk to you later!",
+        "Until next time!",
+        "Take care!",
+        "Bye for now!",
+        "See you soon!",
+        "Farewell, friend!"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Take care!",
+        "See you soon!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "Explain programming to me.",
+        "What's the essence of coding?",
+        "I want to understand programming.",
+        "Could you elaborate on coding?",
+        "Tell me more about software development."
+      ],
+      "responses": [
+        "Programming, coding or software development, means writing computer code to automate tasks.",
+        "Programming involves writing instructions for computers to perform specific tasks.",
+        "Coding is the process of creating instructions for computers to execute.",
+        "Software development is the creation of applications or systems through programming languages."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "resource",
+      "patterns": [
+        "Do you know any good coding courses?",
+        "Where should I start learning to code?",
+        "Can you recommend a coding bootcamp?",
+        "I'm looking for online resources to learn coding.",
+        "What's the best way to learn programming?"
+      ],
+      "responses": [
+        "Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1).",
+        "Codecademy and Udemy offer comprehensive coding courses.",
+        "Consider joining coding communities like FreeCodeCamp and GitHub.",
+        "Explore online coding platforms like Coursera and edX for structured learning paths."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "Can you show me my investments?",
+        "I'd like to see my stock portfolio.",
+        "What's the status of my stocks?",
+        "Show me how my stocks are doing.",
+        "Give me an update on my investments."
+      ],
+      "responses": [
+        "Here are your stocks!",
+        "Checking your portfolio now.",
+        "Let's take a look at your investments.",
+        "Here's the status of your stocks.",
+        "Analyzing your stock portfolio."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "What's new at the movies?",
+        "Tell me about the latest movie releases.",
+        "Any good films playing in theaters?",
+        "I want to catch a movie. Any recommendations?",
+        "What's the lineup at the cinema?"
+      ],
+      "responses": [
+        "Here are some popular movies currently playing.",
+        "Checking movie showtimes...",
+        "Let me find some movie options for you.",
+        "Exploring the latest movie releases for you.",
+        "I'll help you find the perfect movie to watch."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Can you give me a weather update?",
+        "I need to know today's weather forecast.",
+        "Tell me about the weather conditions.",
+        "Is it going to be sunny tomorrow?",
+        "What's the temperature outside?"
+      ],
+      "responses": [
+        "Let me check the weather for you.",
+        "Checking the weather forecast...",
+        "Just a moment, I'll find out for you.",
+        "I'll get the latest weather information.",
+        "Looking up the current weather conditions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Where should I go for lunch?",
+        "Any recommendations for dinner tonight?",
+        "I'm craving something delicious.",
+        "Suggest a good restaurant nearby.",
+        "What's the best place to eat around here?",
+        "i am hungry"
+      ],
+      "responses": [
+        "Let me suggest some delicious options for you.",
+        "Hungry? I've got some tasty recommendations.",
+        "I'll find you a great place to eat!",
+        "Exploring dining options for you.",
+        "Let's discover some culinary delights together!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?",
+        "I need to catch up on current events.",
+        "Tell me about the recent headlines.",
+        "What's happening in the world right now?",
+        "Give me an update on world news."
+      ],
+      "responses": [
+        "Let me fetch the latest news for you.",
+        "Stay informed with the latest headlines.",
+        "I'll get you up to speed on the news.",
+        "Exploring the latest headlines for you.",
+        "Bringing you the most recent news updates."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "What sports events are happening today?",
+        "Give me updates on sports scores.",
+        "I'm interested in sports news.",
+        "What's the schedule for upcoming sports events?",
+        "Tell me about sports happening in my area."
+      ],
+      "responses": [
+        "Let me check the latest sports updates for you.",
+        "Stay tuned for the latest sports news!",
+        "I'll find out what's happening in the world of sports.",
+        "Exploring sports events for you.",
+        "Bringing you the latest sports updates."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "science_facts",
+      "patterns": [
+        "Tell me something fascinating about science.",
+        "I'm curious about a scientific discovery.",
+        "Share an interesting science fact.",
+        "Do you know any cool science facts?",
+        "Enlighten me with a scientific tidbit."
+      ],
+      "responses": [
+        "Did you know that a day on Venus is longer than a year on Venus?",
+        "The Earth's core is hotter than the surface of the sun!",
+        "Octopuses have three hearts and blue blood!",
+        "The study of ants is called Myrmecology.",
+        "A group of flamingos is called a flamboyance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "humor",
+      "patterns": [
+        "I could use a good laugh.",
+        "Tell me a joke to lighten the mood.",
+        "Share something funny with me.",
+        "Make me chuckle!",
+        "Time for a little humor, please!"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call fake spaghetti? An impasta!",
+        "I told my computer I needed a break, now it won't stop sending me vacation ads.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What's a computer's favorite beat? An algorithm!",
+        "Why did the bicycle fall over? Because it was two-tired!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "technology_qa",
+      "patterns": [
+        "Explain artificial intelligence to me.",
+        "I want to learn about facial recognition technology.",
+        "Could you elaborate on blockchain?",
+        "Tell me more about cloud computing.",
+        "How does machine learning work?"
+      ],
+      "responses": [
+        "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.",
+        "Facial recognition uses biometrics to map facial features from a photograph or video.",
+        "Blockchain is a decentralized, distributed ledger technology that records transactions across multiple computers in a way that ensures the security, transparency, and immutability of the data.",
+        "Cloud computing is the delivery of computing services over the internet, offering resources such as storage, processing power, and software on-demand without requiring users to own or maintain the underlying infrastructure.",
+        "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms which enable computers to learn from and make predictions or decisions based on data."
+      ],
+      "context_set": ""
+    }
+  ]
+}

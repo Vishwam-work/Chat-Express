@@ -1,0 +1,170 @@
+{
+    "intents": [
+      {
+        "tag": "customer_support",
+        "patterns": [
+          "I have a problem with my order.",
+          "How can I contact customer service?",
+          "My item arrived damaged.",
+          "I need help with a return.",
+          "Can you assist me with an exchange?"
+        ],
+        "responses": [
+          "I'm sorry to hear that you're experiencing issues with your order. Please provide me with more details so I can assist you better.",
+          "Sure, I'll do my best to help you. Could you please describe the problem you're facing with your order?",
+          "I apologize for the inconvenience. Let me assist you with resolving the issue. Please provide me with your order details.",
+          "I understand. Let me guide you through the process of returning or exchanging your item. Could you please provide me with your order number?",
+          "I'm here to assist you with your exchange. Could you please provide me with more information about the item you wish to exchange?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recommendation",
+        "patterns": [
+          "Can you suggest a product similar to X?",
+          "I'm looking for a gift for my friend. Any recommendations?",
+          "What do you recommend for outdoor activities?",
+          "Show me some popular items.",
+          "I need suggestions for kitchen gadgets."
+        ],
+        "responses": [
+          "Certainly! Based on your preferences, I recommend [Product Y]. It's similar to [Product X] and has received positive reviews from our customers.",
+          "Of course! How about [Product Z]? It's a great gift option and is popular among our customers.",
+          "For outdoor activities, I suggest [Product A]. It's durable and designed for outdoor use.",
+          "Here are some popular items: [Product 1], [Product 2], [Product 3], [Product 4], [Product 5].",
+          "Sure! Here are some popular kitchen gadgets: [Product A], [Product B], [Product C], [Product D], [Product E]."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hey, how's it going?",
+          "Nice to see you!",
+          "Greetings and salutations!",
+          "Hello, what's new?",
+          "Hi there, how have you been?",
+          "Good day! How can I assist you today?"
+        ],
+        "responses": [
+          "Hello!",
+          "Good to see you again!",
+          "Hi there, how can I help?",
+          "Hey!",
+          "Greetings!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Alright, talk to you later!",
+          "Until next time!",
+          "Take care!",
+          "Bye for now!",
+          "See you soon!",
+          "Farewell, friend!"
+        ],
+        "responses": [
+          "Sad to see you go :(",
+          "Talk to you later",
+          "Goodbye!",
+          "Take care!",
+          "See you soon!"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "promotion_discount",
+        "patterns": [
+          "Do you have any ongoing promotions?",
+          "Are there any discounts available?",
+          "Can I use a coupon code for my purchase?",
+          "Is there a sale happening?",
+          "How can I get free shipping?"
+        ],
+        "responses": [
+          "Yes, we currently have several promotions running. Let me check which ones are applicable to your order.",
+          "Certainly! I'll look up available discounts for you.",
+          "You can use the coupon code [CODE] to avail a discount on your purchase.",
+          "Yes, we have a sale going on right now. Let me show you the discounted items.",
+          "You can qualify for free shipping on orders over $X. Would you like to add more items to your cart to meet the requirement?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "size_color_availability",
+        "patterns": [
+          "Do you have this dress in size small?",
+          "Is this product available in blue?",
+          "What sizes do you have for this shirt?",
+          "I'm looking for the red version of this item. Do you have it?",
+          "Are there any other color options for this product?"
+        ],
+        "responses": [
+          "Let me check the availability of the dress in size small for you.",
+          "Yes, the product is available in blue. Would you like to proceed with this color?",
+          "We have sizes ranging from S to XL for this shirt. Which size are you looking for?",
+          "I'm sorry, but the red version of the item is currently out of stock. Would you like to consider a different color?",
+          "Yes, we have other color options available. Would you like me to show you?"
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": [
+          "What payment methods do you accept?",
+          "Can I pay with PayPal?",
+          "Do you accept credit cards?",
+          "Is cash on delivery available?",
+          "Are there any additional fees for certain payment methods?"
+        ],
+        "responses": [
+          "We accept various payment methods including credit/debit cards, PayPal, and bank transfers.",
+          "Yes, you can pay with PayPal. It's one of the accepted payment methods.",
+          "Certainly! We accept Visa, MasterCard, American Express, and Discover.",
+          "Cash on delivery is available for select regions. Let me check if it's available for your area.",
+          "There are no additional fees for most payment methods. However, please note that certain banks may charge international transaction fees."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "product_inquiry",
+        "patterns": [
+          "Can you tell me more about product X?",
+          "What are the specifications of item Y?",
+          "I want to know about product Z.",
+          "Could you give me details on this item?",
+          "Tell me about the features of product A."
+        ],
+        "responses": [
+          "Sure, let me fetch the details for you.",
+          "Of course! Here are the specifications you requested.",
+          "I can help you with that. Here's the information about the product.",
+          "Let me provide you with the details you need.",
+          "Certainly, here are the details of the product."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "order_tracking",
+        "patterns": [
+          "Where is my order?",
+          "Can you provide me with an update on my shipment?",
+          "I want to track my package.",
+          "Has my order been shipped yet?",
+          "When will my order arrive?"
+        ],
+        "responses": [
+          "Let me check the status of your order for you.",
+          "Sure, I'll look up your order and provide you with an update.",
+          "I can assist you with that. Let me check the status of your shipment.",
+          "Of course! Please give me a moment to look up your order.",
+          "Sure thing. Let me find out where your package is."
+        ],
+        "context_set": ""
+      }
+
+    ]
+  }
+  
