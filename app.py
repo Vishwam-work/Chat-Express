@@ -8,7 +8,7 @@ import keras
 # from gpt4all import GPT4All
 from nltk.stem import WordNetLemmatizer 
 from tensorflow.keras.models import load_model
-
+nltk.download()
 lemmatizer = WordNetLemmatizer()
 
 # gpt = GPT4All(model_name="wizardlm-13b-v1.2.Q4_0.gguf")
