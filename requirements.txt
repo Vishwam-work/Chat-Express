@@ -1,8 +1,8 @@
-keras==3.0.4
+keras
 nltk==3.8.1
 numpy==1.26.4
 pandas==2.2.1
 pillow==10.2.0
 pytz==2024.1
 requests==2.31.0
-tensorflow==2.15.0
+tensorflow
