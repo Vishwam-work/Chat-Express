@@ -6,6 +6,7 @@ import numpy as np
 import nltk
 import keras
 nltk.download('punkt')
+nltk.download('wordnet')
 # from gpt4all import GPT4All
 from nltk.stem import WordNetLemmatizer 
 from tensorflow.keras.models import load_model
