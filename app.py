@@ -12,6 +12,7 @@ import sqlite3
 import re
 
 nltk.download('punkt')
+nltk.download('wordnet')
 # nltk.download('regex')
 conn = sqlite3.connect('data.db')
 c = conn.cursor()   
