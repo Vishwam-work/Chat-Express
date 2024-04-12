@@ -17,6 +17,7 @@ The CHAT-EXPRESS is a conversational Machine learning based NLP chatbot built us
 ## Authors
 
 - [@Vishwam-work](https://github.com/Vishwam-work)
+- [Varnika]
 
 
 ## Demo
