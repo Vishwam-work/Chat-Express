@@ -1,15 +1,16 @@
 
 # CHAT-EXPRESS
 
-The CHAT-EXPRESS is a conversational AI chatbot built using Python, integrating natural language processing (NLP) techniques with neural networks and machine learning algorithms. It aims to provide an interactive and intelligent conversational interface for users to interact with.
+The CHAT-EXPRESS is a conversational Machine learning based NLP chatbot built using Python, integrating natural language processing (NLP) techniques with neural networks and machine learning algorithms. It aims to provide an interactive and intelligent conversational interface for users to interact with.
 
 
 ## Acknowledgements
 [Python Community](https://www.python.org/): For creating and maintaining a rich ecosystem of libraries and frameworks
 
-[Django and Flask Teams](https://www.djangoproject.com/): For developing robust web frameworks that facilitated the deployment of our chatbot as a web application, 
+[Streamlit Doc](https://docs.streamlit.io/develop/api-reference/text/st.header): For developing robust web frameworks that facilitated the deployment of our chatbot as a web application, 
 
-[Tkinter Developers](https://docs.python.org/3/library/tkinter.html): For providing a user-friendly and versatile framework for building desktop applications in Python, enabling us to offer our chatbot as a standalone desktop solution.
+[Streamlit CLoud Community](https://streamlit.io/cloud):Deploy, manage, and share your apps with the world, directly from Streamlit — all for free.
+
 
 
 
